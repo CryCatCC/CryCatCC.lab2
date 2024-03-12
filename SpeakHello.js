@@ -1,10 +1,11 @@
 (function (window) {
-  let personGoodBye = {};
-  let speakWordGoodbye = "Good Bye";
+  let personGreeter = {};
+  let speakWordHello = "Hello";
 
-  personGoodBye.speakGoodbye = function (name) {
-    console.log(speakWordGoodbye + " " + name);
+  personGreeter.speakHello = function (name) {
+    console.log(speakWordHello + " " + name);
   }
 
-  window.personGoodBye = personGoodBye;
+  window.personGreeter = personGreeter;
+
 })(window);
