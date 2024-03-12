@@ -1,25 +1,10 @@
-// let speakWord = "Hello";
-
-
-// function speak(name) {
-//   console.log(speakWord + " " + name);
-// }
-
-
-// let speakWordHello = "Hello";
-
-// function speakHello(name) {
-//   console.log(speakWordHello + " " + name);
-// }
-
 (function (window) {
-  let personGreeter = {};
-  personGreeter.speakWordHello = "Hello";
+  let personGoodBye = {};
+  let speakWordGoodbye = "Good Bye";
 
-  personGreeter.speakHello = function (name) {
-    console.log(personGreeter.speakWordHello + " " + name);
+  personGoodBye.speakGoodbye = function (name) {
+    console.log(speakWordGoodbye + " " + name);
   }
 
-  window.personGreeter = personGreeter;
-
+  window.personGoodBye = personGoodBye;
 })(window);
